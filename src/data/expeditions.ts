@@ -1,0 +1,121 @@
+import { Expedition } from "@/types";
+
+export const expeditions: Expedition[] = [
+  {
+    id: 1,
+    name: "Caribbean Galleon Discovery",
+    description: "Explore the remains of a 16th-century Spanish galleon in the crystal-clear waters of the Caribbean Sea.",
+    image: "/images/expedition-1.jpg",
+    date: "June 15 - June 28, 2024",
+    location: "Caribbean Sea, near Bahamas",
+    duration: "14 days",
+    spots: 8,
+    price: 12500,
+    status: "upcoming",
+    type: "shipwreck"
+  },
+  {
+    id: 2,
+    name: "Mariana Trench Deep Dive",
+    description: "Join our scientific team on a groundbreaking expedition to explore the deepest part of the world's oceans.",
+    image: "/images/expedition-2.jpg",
+    date: "August 3 - August 17, 2024",
+    location: "Western Pacific Ocean",
+    duration: "15 days",
+    spots: 4,
+    price: 35000,
+    status: "upcoming",
+    type: "deep-sea"
+  },
+  {
+    id: 3,
+    name: "Mediterranean Wreck Mapping",
+    description: "Help document and map ancient shipwrecks in the Mediterranean Sea using cutting-edge sonar technology.",
+    image: "/images/expedition-3.jpg",
+    date: "September 10 - September 20, 2024",
+    location: "Mediterranean Sea, near Greece",
+    duration: "11 days",
+    spots: 10,
+    price: 9800,
+    status: "upcoming",
+    type: "archaeological"
+  },
+  {
+    id: 4,
+    name: "HMS Victory Exploration",
+    description: "Dive to the wreck of Admiral Nelson's flagship, sunk in 1744 with a cargo of gold and artifacts.",
+    image: "/images/expedition-4.jpg",
+    date: "July 5 - July 15, 2024",
+    location: "English Channel",
+    duration: "10 days",
+    spots: 6,
+    price: 14500,
+    status: "upcoming",
+    type: "shipwreck"
+  },
+  {
+    id: 5,
+    name: "Black Sea Ancient Vessels",
+    description: "Explore remarkably preserved ancient shipwrecks in the oxygen-free depths of the Black Sea.",
+    image: "/images/expedition-5.jpg",
+    date: "May 20 - May 30, 2024",
+    location: "Black Sea, near Bulgaria",
+    duration: "11 days",
+    spots: 8,
+    price: 11200,
+    status: "active",
+    type: "archaeological"
+  },
+  {
+    id: 6,
+    name: "Pacific Hydrothermal Vents",
+    description: "Study unique ecosystems around deep-sea hydrothermal vents in the Pacific Ocean.",
+    image: "/images/expedition-6.jpg",
+    date: "Currently Active",
+    location: "Eastern Pacific Rise",
+    duration: "18 days",
+    spots: 0,
+    price: 22000,
+    status: "active",
+    type: "deep-sea"
+  },
+  {
+    id: 7,
+    name: "Titanic Memorial Dive",
+    description: "A special expedition to the world's most famous shipwreck on the anniversary of its sinking.",
+    image: "/images/expedition-7.jpg",
+    date: "April 10 - April 20, 2023",
+    location: "North Atlantic Ocean",
+    duration: "11 days",
+    spots: 0,
+    price: 45000,
+    status: "completed",
+    type: "shipwreck"
+  },
+  {
+    id: 8,
+    name: "Gold Rush Steamship Survey",
+    description: "Document and explore Gold Rush-era steamships sunk off the coast of California.",
+    image: "/images/expedition-8.jpg",
+    date: "October 5 - October 15, 2023",
+    location: "California Coast, USA",
+    duration: "10 days",
+    spots: 0,
+    price: 8900,
+    status: "completed",
+    type: "treasure"
+  },
+  {
+    id: 9,
+    name: "Arctic Exploration Vessel Recovery",
+    description: "Search for and document the remains of 19th-century Arctic exploration vessels.",
+    image: "/images/expedition-9.jpg",
+    date: "July 1 - July 20, 2023",
+    location: "Northwest Passage, Arctic",
+    duration: "20 days",
+    spots: 0,
+    price: 28000,
+    status: "completed",
+    type: "archaeological"
+  }
+];
